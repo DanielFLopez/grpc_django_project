@@ -1,0 +1,121 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C Extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# If you are using Django migrations:
+*/migrations/*
+!*/migrations/__init__.py
+
+# VSCode settings
+.vscode/
+.vscode/*
+
+# Environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+Pipfile
+Pipfile.lock
+
+# Pyenv
+.python-version
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js dependencies (for frontend tools or if using with Django)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Local development files
+*.env
+*.local
+.env.*
+.envrc
+
+# Secrets and sensitive files
+secrets.json
+config/settings/*.json
+config/settings/*.yaml
+config/settings/*.yml
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Testing
+.pytest_cache/
+.pytest_cache/*
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Celery task history
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Static files
+/static/
+*.static
+*.media
+
+# Sentry files
+.sentrycli
+
+# Logs
+*.log
+*.out
+*.err
+
+# Docker
+docker-compose*.yaml
+.dockerignore
+Dockerfile
+docker-compose.yml

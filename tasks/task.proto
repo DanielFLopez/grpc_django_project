@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package task;
+
+service TaskManager {
+  rpc CreateTask (Task) returns (TaskID);
+  rpc GetTask (TaskID) returns (Task);
+  rpc UpdateTask (Task) returns (Empty);
+  rpc DeleteTask (TaskID) returns (Empty);
+  rpc ListTasks (Empty) returns (TaskList);
+}
+
+message Task {
+  int32 id = 1;
+  string title = 2;
+  string description = 3;
+}
+
+message TaskID {
+  int32 id = 1;
+}
+
+message TaskList {
+  repeated Task tasks = 1;
+}
+
+message Empty {}
